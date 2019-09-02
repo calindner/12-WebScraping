@@ -1,38 +1,18 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 8,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import pandas as pd\n",
-    "from splinter import Browser\n",
-    "from bs4 import BeautifulSoup\n",
-    "import pymongo\n",
-    "import pprint\n",
-    "import requests\n",
-    "import time\n",
-    "import datetime\n",
-    "from selenium import webdriver\n",
-    "from selenium.webdriver.common.keys import Keys\n",
-    "from selenium.webdriver.common.action_chains import ActionChains "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "<b>Gathering News Articles</b>"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 10,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "executable_path = {'executable_path': 'C:\\\\Users\\\\calin\\\\Desktop\\\\HomeWork\\\\Module-12\\\\12-WebScraping\\\\MissionToMars\\\\chromedriver.exe'}\n",
+
+    import pandas as pd
+    from splinter import Browser
+    from bs4 import BeautifulSoup
+    import pymongo
+    import pprint
+    import requests
+    import time
+    import datetime
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    from selenium.webdriver.common.action_chains import ActionChains 
+
+
+    executable_path = {'executable_path': 'C:\\\\Users\\\\calin\\\\Desktop\\\\HomeWork\\\\Module-12\\\\12-WebScraping\\\\MissionToMars\\\\chromedriver.exe'}
     "browser = Browser('chrome', **executable_path)"
    ]
   },
